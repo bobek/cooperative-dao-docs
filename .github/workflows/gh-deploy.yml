@@ -3,17 +3,19 @@ on:
   push:
     branches: 
       - main
+
 jobs:
   deploy:
+    name: Deploy docs
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
-        with:
-          python-version: 3.x
-      - run: pip install mkdocs-material mike
-      - run: git config user.name ci-bot
-      - run: git config user.email ci-bot@bobek.cz
-      - run: git fetch origin gh-pages --depth=1
-      - run: mike deploy --push main
+      - name: Checkout main
+        uses: actions/checkout@v2
 
+      - name: Deploy docs
+        uses: mhausenblas/mkdocs-deploy-gh-pages@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CUSTOM_DOMAIN: example.com
+          CONFIG_FILE: mkdocs.yml
+          REQUIREMENTS: requirements.txt
