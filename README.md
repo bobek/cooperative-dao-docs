@@ -1,8 +1,6 @@
 # 💡 The Funding Cooperative DAO
 
-<div class="video-wrapper">
-  <iframe width="1280" height="720" src="https://www.youtube.com/embed/pKkORzVEQ9s" frameborder="0" allowfullscreen></iframe>
-</div>
+[![The Funding Cooperative DAO Introduction Video](https://img.youtube.com/vi/pKkORzVEQ9s/0.jpg)](https://www.youtube.com/watch?v=pKkORzVEQ9s)
 
 ## Why do Founders and DAOs apply?
 
