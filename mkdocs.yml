@@ -17,5 +17,8 @@ markdown_extensions:
       check_paths: true
   - pymdownx.superfences
 
+extra_css:
+  - stylesheets/video.css
+
 plugins:
   - search:
