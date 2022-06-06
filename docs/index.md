@@ -20,7 +20,7 @@
 
 ## Why do Founders and DAOs apply?
 
-Many of us _are_ founders - and have _personally_ experienced the challenges of
+Many of us _are_ founders -- and have _personally_ experienced the challenges of
 starting companies, open-source projects, and DAOs. At the Funding Cooperative
 DAO we do NOT solve all of these challenges. However we can, with your help,
 address:
@@ -38,17 +38,9 @@ address:
 ### Community
 
 - By becoming a part of a DAO of DAOs established by the Funding Cooperative
-  DAO - DAOs link arms with each other and support each other on their
+  DAO -- DAOs link arms with each other and support each other on their
   journey.
 
-{% content-ref url="guides/how-does-the-fc-dao-work.md" %}
-[how-does-the-fc-dao-work.md](guides/how-does-the-fc-dao-work.md)
-{% endcontent-ref %}
+- Checkout our page on [How does DAO works](guides/how-does-the-fc-dao-work.md).
 
-{% content-ref url="guides/how-can-i-help.md" %}
-[how-can-i-help.md](guides/how-can-i-help.md)
-{% endcontent-ref %}
-
-{% content-ref url="guides/advanced-permissions.md" %}
-[advanced-permissions.md](guides/advanced-permissions.md)
-{% endcontent-ref %}
+- Checkout our page on [How can you can involved](guides/how-can-i-help.md)
